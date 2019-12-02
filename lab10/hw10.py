@@ -19,8 +19,6 @@ def txtGen(t):
 rdWords = txtGen(text)
 #print(rdWords)
 
-text2 = "The raw, lingering emotion of the 2016 presidential campaign erupted into a shouting match here Thursday as top strategists of Hillary Clinton’s campaign accused their Republican counterparts of fueling and legitimizing racism to elect Donald Trump."
-
 
 file = open("sampletext.txt", 'r')
 thetext = file.read()
